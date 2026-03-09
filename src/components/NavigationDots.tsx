@@ -8,7 +8,7 @@ export function NavigationDots() {
 
   return (
     <nav
-      className="fixed left-6 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-4 mix-blend-difference"
+      className="fixed left-6 top-1/2 -translate-y-1/2 z-50 hidden md:flex flex-col gap-4 mix-blend-difference"
       aria-label="Section navigation"
     >
       {ACTS.map((act, i) => (

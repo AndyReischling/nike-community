@@ -37,7 +37,7 @@ export function PhoneFrame() {
 
   return (
     <div
-      className="fixed right-8 lg:right-16 top-1/2 -translate-y-1/2 z-30"
+      className="fixed right-8 lg:right-16 top-1/2 -translate-y-1/2 z-30 hidden md:block"
       style={{ perspective: "1200px" }}
     >
       <div

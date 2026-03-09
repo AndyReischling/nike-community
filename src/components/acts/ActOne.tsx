@@ -25,12 +25,12 @@ export function ActOne() {
       aria-label="Act One: The Mundane Capture"
     >
       {/* Left panel */}
-      <div className="w-[55%] pr-12 relative z-10" style={{ marginLeft: "3vw", paddingLeft: "2rem" }}>
+      <div className="w-full px-6 md:w-[55%] md:pr-12 md:px-0 relative z-10" style={{ marginLeft: "0", paddingLeft: "max(1.5rem, 5vw)" }}>
         <ConnectorLines className="absolute -left-4 top-0 w-[120px] h-[300px] opacity-10" />
 
         <motion.span
           custom={0} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
-          className="block font-mono text-[clamp(100px,12vw,200px)] font-bold text-[var(--orange)] leading-none opacity-20 select-none"
+          className="block font-mono text-[clamp(60px,12vw,200px)] font-bold text-[var(--orange)] leading-none opacity-20 select-none"
         >
           01
         </motion.span>

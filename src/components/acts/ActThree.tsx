@@ -27,10 +27,10 @@ export function ActThree() {
     >
       <DrippingDivider color="var(--cream)" className="absolute top-0 left-0 right-0 opacity-30" />
 
-      <div className="w-[55%] pr-12 relative z-10" style={{ marginLeft: "3vw", paddingLeft: "2rem" }}>
+      <div className="w-full px-6 md:w-[55%] md:pr-12 md:px-0 relative z-10" style={{ marginLeft: "0", paddingLeft: "max(1.5rem, 5vw)" }}>
         <motion.span
           custom={0} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
-          className="block font-mono text-[clamp(100px,12vw,200px)] font-bold text-[var(--orange)] leading-none opacity-20 select-none"
+          className="block font-mono text-[clamp(60px,12vw,200px)] font-bold text-[var(--orange)] leading-none opacity-20 select-none"
         >
           03
         </motion.span>
