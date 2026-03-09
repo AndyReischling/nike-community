@@ -25,7 +25,7 @@ export function ActOne() {
       aria-label="Act One: The Mundane Capture"
     >
       {/* Left panel */}
-      <div className="w-[55%] pl-[clamp(2rem,6vw,6rem)] pr-12 relative z-10">
+      <div className="w-[55%] pr-12 relative z-10" style={{ marginLeft: "3vw", paddingLeft: "2rem" }}>
         <ConnectorLines className="absolute -left-4 top-0 w-[120px] h-[300px] opacity-10" />
 
         <motion.span

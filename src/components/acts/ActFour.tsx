@@ -25,7 +25,7 @@ export function ActFour() {
       style={{ background: "linear-gradient(180deg, var(--bg-warm) 0%, var(--bg-base) 100%)" }}
       aria-label="Act Four: The Digital Rubbing"
     >
-      <div className="w-[55%] pl-[clamp(2rem,6vw,6rem)] pr-12 relative z-10">
+      <div className="w-[55%] pr-12 relative z-10" style={{ marginLeft: "3vw", paddingLeft: "2rem" }}>
         <motion.span
           custom={0} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
           className="block font-mono text-[clamp(100px,12vw,200px)] font-bold text-[var(--orange)] leading-none opacity-20 select-none"

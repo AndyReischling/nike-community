@@ -27,7 +27,7 @@ export function ActThree() {
     >
       <DrippingDivider color="var(--cream)" className="absolute top-0 left-0 right-0 opacity-30" />
 
-      <div className="w-[55%] pl-[clamp(2rem,6vw,6rem)] pr-12 relative z-10">
+      <div className="w-[55%] pr-12 relative z-10" style={{ marginLeft: "3vw", paddingLeft: "2rem" }}>
         <motion.span
           custom={0} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
           className="block font-mono text-[clamp(100px,12vw,200px)] font-bold text-[var(--orange)] leading-none opacity-20 select-none"
