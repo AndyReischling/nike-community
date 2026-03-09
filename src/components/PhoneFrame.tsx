@@ -37,17 +37,17 @@ export function PhoneFrame() {
 
   return (
     <div
-      className="fixed right-8 lg:right-16 top-1/2 -translate-y-1/2 z-30 hidden md:block"
+      className="fixed z-30 max-md:bottom-4 max-md:right-4 max-md:top-auto max-md:translate-y-0 md:right-8 lg:right-16 md:top-1/2 md:-translate-y-1/2"
       style={{ perspective: "1200px" }}
     >
       <div
         className="relative"
         style={{
-          width: "min(340px, 35vw)",
           aspectRatio: "9 / 19.5",
           transform: "rotateY(-3deg)",
           transformStyle: "preserve-3d",
         }}
+        className="w-[min(340px,35vw)] max-md:w-[140px]"
       >
         {/* Bezel */}
         <div className="absolute inset-0 rounded-[40px] bg-[#1c1c1e] shadow-[0_20px_60px_rgba(0,0,0,0.5)]" />
