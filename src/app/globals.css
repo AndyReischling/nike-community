@@ -168,6 +168,16 @@ body {
 ::-webkit-scrollbar-track { background: var(--bg-base); }
 ::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
 
+/* ---- Phone frame mobile sizing ---- */
+.phone-inner {
+  width: min(340px, 35vw);
+}
+@media (max-width: 767px) {
+  .phone-inner {
+    width: 140px;
+  }
+}
+
 /* ---- Reduced motion ---- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

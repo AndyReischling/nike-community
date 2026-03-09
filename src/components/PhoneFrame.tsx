@@ -41,13 +41,12 @@ export function PhoneFrame() {
       style={{ perspective: "1200px" }}
     >
       <div
-        className="relative"
+        className="relative phone-inner"
         style={{
           aspectRatio: "9 / 19.5",
           transform: "rotateY(-3deg)",
           transformStyle: "preserve-3d",
         }}
-        className="w-[min(340px,35vw)] max-md:w-[140px]"
       >
         {/* Bezel */}
         <div className="absolute inset-0 rounded-[40px] bg-[#1c1c1e] shadow-[0_20px_60px_rgba(0,0,0,0.5)]" />
