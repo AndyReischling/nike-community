@@ -23,7 +23,7 @@ export function ActFour() {
       id="act-four"
       className="relative min-h-[100vh] flex items-center"
       style={{ background: "linear-gradient(180deg, var(--bg-warm) 0%, var(--bg-base) 100%)" }}
-      aria-label="Act Four: The Digital Rubbing"
+      aria-label="Act Four: The Legends Among Us"
     >
       <div className="w-[55%] pr-12 relative z-10" style={{ paddingLeft: "max(1.5rem, 5vw)" }}>
         <motion.span
@@ -37,7 +37,7 @@ export function ActFour() {
           custom={1} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
           className="font-mono text-[clamp(20px,2.5vw,36px)] font-bold tracking-[-0.02em] uppercase text-[var(--white-hot)] mt-[-2rem] relative"
         >
-          The Digital Rubbing
+          The Legends Among Us
         </motion.h2>
 
         <motion.div

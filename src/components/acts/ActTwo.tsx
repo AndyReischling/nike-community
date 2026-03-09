@@ -23,7 +23,7 @@ export function ActTwo() {
       id="act-two"
       className="relative min-h-[100vh] flex items-center"
       style={{ background: "linear-gradient(180deg, var(--bg-base) 0%, var(--bg-warm) 100%)" }}
-      aria-label="Act Two: The VCR Boot"
+      aria-label="Act Two: History Rallies"
     >
       <DrippingDivider className="absolute top-0 left-0 right-0" />
 
@@ -39,7 +39,7 @@ export function ActTwo() {
           custom={1} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
           className="font-mono text-[clamp(20px,2.5vw,36px)] font-bold tracking-[-0.02em] uppercase text-[var(--white-hot)] mt-[-2rem] relative"
         >
-          The VCR Boot
+          History Rallies
         </motion.h2>
 
         <motion.div

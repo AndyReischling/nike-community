@@ -23,7 +23,7 @@ export function ActThree() {
       id="act-three"
       className="relative min-h-[150vh] flex items-start pt-[20vh]"
       style={{ background: "var(--bg-warm)" }}
-      aria-label="Act Three: The Ghost Clip"
+      aria-label="Act Three: No Such Thing as Ordinary"
     >
       <DrippingDivider color="var(--cream)" className="absolute top-0 left-0 right-0 opacity-30" />
 
@@ -39,7 +39,7 @@ export function ActThree() {
           custom={1} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
           className="font-mono text-[clamp(20px,2.5vw,36px)] font-bold tracking-[-0.02em] uppercase text-[var(--white-hot)] mt-[-2rem] relative"
         >
-          The Ghost Clip
+          No Such Thing as Ordinary
         </motion.h2>
 
         <motion.div

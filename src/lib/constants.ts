@@ -10,10 +10,10 @@ export const COLORS = {
 } as const;
 
 export const ACTS = [
-  { id: "act-one", label: "01", title: "THE MUNDANE CAPTURE", startVh: 0, endVh: 100 },
-  { id: "act-two", label: "02", title: "THE VCR BOOT", startVh: 100, endVh: 200 },
-  { id: "act-three", label: "03", title: "THE GHOST CLIP", startVh: 200, endVh: 350 },
-  { id: "act-four", label: "04", title: "THE DIGITAL RUBBING", startVh: 350, endVh: 450 },
+  { id: "act-one", label: "01", title: "THE STORY BELONGS TO ALL OF US", startVh: 0, endVh: 100 },
+  { id: "act-two", label: "02", title: "HISTORY RALLIES", startVh: 100, endVh: 200 },
+  { id: "act-three", label: "03", title: "NO SUCH THING AS ORDINARY", startVh: 200, endVh: 350 },
+  { id: "act-four", label: "04", title: "THE LEGENDS AMONG US", startVh: 350, endVh: 450 },
 ] as const;
 
 export const TOTAL_SCROLL_VH = 450;

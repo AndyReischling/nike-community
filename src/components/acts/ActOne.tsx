@@ -22,7 +22,7 @@ export function ActOne() {
       ref={ref}
       id="act-one"
       className="relative min-h-[100vh] flex items-center"
-      aria-label="Act One: The Mundane Capture"
+      aria-label="Act One: The Story Belongs to All of Us"
     >
       {/* Left panel */}
       <div className="w-[55%] pr-12 relative z-10" style={{ paddingLeft: "max(1.5rem, 5vw)" }}>
@@ -39,7 +39,7 @@ export function ActOne() {
           custom={1} variants={stagger} initial="hidden" animate={inView ? "visible" : "hidden"}
           className="font-mono text-[clamp(20px,2.5vw,36px)] font-bold tracking-[-0.02em] uppercase text-[var(--white-hot)] mt-[-2rem] relative"
         >
-          The Mundane Capture
+          The Story Belongs to All of Us
         </motion.h2>
 
         <motion.div
